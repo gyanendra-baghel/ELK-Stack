@@ -39,7 +39,7 @@ This folder contains the setup for logging using Filebeat. The key components ar
 
 2. Start the services:
   ```sh
-  docker-compose up
+  docker compose up
   ```
 3. Access Kibana at http://localhost:5601 to view logs.
 
@@ -47,11 +47,11 @@ This folder contains the setup for logging using Filebeat. The key components ar
 
 1. Navigate to the `test2-filebeat/` directory:
   ```bash
-   cd test1-gelf
+   cd test2-filebeat
   ```
 2. Start the services:
   ```sh
-  docker-compose up
+  docker compose up
   ```
 Access Kibana at http://localhost:5601 to view logs.
 
